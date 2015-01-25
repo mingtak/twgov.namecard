@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rolemap>
+
+  <roles>
+    <role name="NameCard Creator"/>
+    <role name="NameCard Owner"/>
+  </roles>
+
+  <permissions>
+    <permission name="twgov.namecard: Add NameCard" acquire="True">
+      <role name="Manager"/>
+      <role name="NameCard Creator"/>
+    </permission>
+<!--
+    <permission name="twgov.namecard: Modify NameCard" acquire="True">
+      <role name="Manager"/>
+      <role name="Owner"/>
+    </permission>
+-->
+
+    <permission name="twgov.namecard: Add Product" acquire="True">
+      <role name="Manager"/>
+      <role name="NameCard Owner"/>
+    </permission>
+
+    <permission name="twgov.namecard: Add Experience" acquire="True">
+      <role name="Manager"/>
+      <role name="NameCard Owner"/>
+    </permission>
+
+  </permissions>
+
+</rolemap>

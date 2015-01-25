@@ -1,0 +1,139 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-06-17 02:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: twgov.namecard\n"
+
+#: ./namecard.py:40
+msgid "Address"
+msgstr ""
+
+#: ./namecard.py:58
+msgid "Cell NO"
+msgstr ""
+
+#: ./namecard.py:28
+msgid "Contact Name"
+msgstr ""
+
+#: ./namecard.py:76
+msgid "Detail Description"
+msgstr ""
+
+#: ./namecard.py:77
+msgid "Detail Description, Fill in here."
+msgstr ""
+
+#: ./product.py:35
+msgid "Detail description, support html tag."
+msgstr ""
+
+#: ./profiles/default/types/twgov.namecard.experience.xml
+msgid "Experience"
+msgstr ""
+
+#: ./profiles/default/types/twgov.namecard.experience.xml
+msgid "Experience content type"
+msgstr ""
+
+#: ./namecard.py:52
+msgid "FAX"
+msgstr ""
+
+#: ./namecard.py:29
+msgid "Fill in, if your namecard is a company, or ignore this field."
+msgstr ""
+
+#: ./namecard.py:53
+msgid "Fill your FAX No., format: 02-23456789, or 039-345678"
+msgstr ""
+
+#: ./namecard.py:71
+msgid "Fill your Service Keyowrd, one line one keyword."
+msgstr ""
+
+#: ./namecard.py:47
+msgid "Fill your Tel No., format: 02-23456789, or 039-345678"
+msgstr ""
+
+#: ./namecard.py:59
+msgid "Fill your Tel No., format: 0912-123456"
+msgstr ""
+
+#: ./namecard.py:41
+msgid "Fill your contact address."
+msgstr ""
+
+#: ./namecard.py:65
+msgid "Fill your contact email address, "
+msgstr ""
+
+#: ./profiles/default/types/twgov.namecard.namecard.xml
+msgid "Name Card content type"
+msgstr ""
+
+#: ./profiles/default/types/twgov.namecard.namecard.xml
+msgid "NameCard"
+msgstr ""
+
+#: ./profiles/default/types/twgov.namecard.product.xml
+msgid "Product"
+msgstr ""
+
+#: ./product.py:34
+msgid "Product Detail"
+msgstr ""
+
+#: ./product.py:28
+msgid "Product Image"
+msgstr ""
+
+#: ./profiles/default/types/twgov.namecard.product.xml
+msgid "Product content type"
+msgstr ""
+
+#: ./namecard.py:70
+msgid "Service Keyword"
+msgstr ""
+
+#: ./product.py:29
+msgid "Suggestions image size is XXX"
+msgstr ""
+
+#: ./namecard.py:46
+msgid "Tel"
+msgstr ""
+
+#: ./namecard.py:84
+msgid "Upload your personal image or company logo."
+msgstr ""
+
+#: ./namecard.py:83
+msgid "Your Image"
+msgstr ""
+
+#: ./namecard.py:64
+msgid "email address"
+msgstr ""
+
+#: ./namecard.py:34
+msgid "webiste url"
+msgstr ""
+
+#: ./namecard.py:35
+msgid "website url, must include http://"
+msgstr ""
+

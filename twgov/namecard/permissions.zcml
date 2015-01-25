@@ -1,0 +1,24 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    i18n_domain="example.conference">
+
+    <permission
+        id="twgov.namecard.AddNameCard"
+        title="twgov.namecard: Add NameCard"
+        />
+<!--    <permission
+        id="twgov.namecard.ModifyNameCard"
+        title="twgov.namecard: Modify NameCard"
+        />
+-->
+    <permission
+        id="twgov.namecard.AddProduct"
+        title="twgov.namecard: Add Product"
+        />
+
+    <permission
+        id="twgov.namecard.AddExperience"
+        title="twgov.namecard: Add Experience"
+        />
+
+</configure>

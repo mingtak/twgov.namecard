@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object name="portal_workflow" meta_type="Plone Workflow Tool">
+ <object name="two_state_workflow" meta_type="Workflow"/>
+ <bindings>
+  <type type_id="twgov.namecard.namecard">
+   <bound-workflow workflow_id="two_state_workflow"/>
+  </type>
+  <type type_id="twgov.namecard.experience">
+   <bound-workflow workflow_id="two_state_workflow"/>
+  </type>
+  <type type_id="twgov.namecard.product">
+   <bound-workflow workflow_id="two_state_workflow"/>
+  </type>
+ </bindings>
+</object>

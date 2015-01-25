@@ -1,0 +1,135 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-06-17 02:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: ./namecard.py:40
+msgid "Address"
+msgstr "地址"
+
+#: ./namecard.py:58
+msgid "Cell NO"
+msgstr "手機號碼"
+
+#: ./namecard.py:28
+msgid "Contact Name"
+msgstr "聯絡人"
+
+#: ./namecard.py:76
+msgid "Detail Description"
+msgstr "詳細描述"
+
+#: ./namecard.py:77
+msgid "Detail Description, Fill in here."
+msgstr "詳細說明，填寫在下方"
+
+#: ./product.py:35
+msgid "Detail description, support html tag."
+msgstr "詳細說明，支援html語法"
+
+#: ./profiles/default/types/twgov.namecard.experience.xml
+msgid "Experience"
+msgstr "實績"
+
+#: ./profiles/default/types/twgov.namecard.experience.xml
+msgid "Experience content type"
+msgstr "新增實績"
+
+#: ./namecard.py:52
+msgid "FAX"
+msgstr "傳真"
+
+#: ./namecard.py:29
+msgid "Fill in, if your namecard is a company, or ignore this field."
+msgstr "若您的建立的是公司名片，可以忽略不填本項"
+
+#: ./namecard.py:53
+msgid "Fill your FAX No., format: 02-23456789, or 039-345678"
+msgstr "填入您的傳真號碼，格式為: 02-23456789, 或 039-345678"
+
+#: ./namecard.py:71
+msgid "Fill your Service Keyowrd, one line one keyword."
+msgstr "填入你的服務項目關鍵字，一行一個關鍵字"
+
+#: ./namecard.py:47
+msgid "Fill your Tel No., format: 02-23456789, or 039-345678"
+msgstr "填入你的電話號碼，格式為: 02-23456789, 或 039-345678"
+
+#: ./namecard.py:59
+msgid "Fill your Tel No., format: 0912-123456"
+msgstr "填入你的手機號碼，格式為: 0912-123456"
+
+#: ./namecard.py:41
+msgid "Fill your contact address."
+msgstr "填寫聯絡地址"
+
+#: ./namecard.py:65
+msgid "Fill your contact email address, "
+msgstr "填寫聯絡用email信箱"
+
+#: ./profiles/default/types/twgov.namecard.namecard.xml
+msgid "Name Card content type"
+msgstr "新增名片"
+
+#: ./profiles/default/types/twgov.namecard.namecard.xml
+msgid "NameCard"
+msgstr "名片"
+
+#: ./profiles/default/types/twgov.namecard.product.xml
+msgid "Product"
+msgstr "產品"
+
+#: ./product.py:34
+msgid "Product Detail"
+msgstr "產品詳細說明"
+
+#: ./product.py:28
+msgid "Product Image"
+msgstr "產品圖片"
+
+#: ./profiles/default/types/twgov.namecard.product.xml
+msgid "Product content type"
+msgstr "新增產品頁面"
+
+#: ./namecard.py:70
+msgid "Service Keyword"
+msgstr "服務項目關鍵字"
+
+#: ./product.py:29
+msgid "Suggestions image size is XXX"
+msgstr "建議的圖片尺寸為:XXX XXX"
+
+#: ./namecard.py:46
+msgid "Tel"
+msgstr "電話"
+
+#: ./namecard.py:84
+msgid "Upload your personal image or company logo."
+msgstr "上傳您的個人照片或公司Logo"
+
+#: ./namecard.py:83
+msgid "Your Image"
+msgstr "您的圖片"
+
+#: ./namecard.py:64
+msgid "email address"
+msgstr "email信箱"
+
+#: ./namecard.py:34
+msgid "webiste url"
+msgstr "網址"
+
+#: ./namecard.py:35
+msgid "website url, must include http://"
+msgstr "填寫網址，開頭必須為http://"

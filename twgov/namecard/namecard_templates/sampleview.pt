@@ -1,0 +1,45 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="twgov.namecard">
+<body>
+
+<tal:comment tal:condition="nothing">
+    This is a sample view template. It will not be used for rendering the
+    content unless activated by creation of a view class with a matching name.
+</tal:comment>
+
+<metal:main fill-slot="content-core">
+  <metal:content-core define-macro="content-core">
+
+<div>
+  <h2 tal:content="structure context/Title">Title inserted here</h2>
+
+  <img tal:define="scales context/@@images"
+       tal:replace="structure python: scales.tag('image', Class='left', width=360, direction='down')" />
+
+  <p><strong>聯絡人: </strong><span tal:content="context/contactName"/></p>
+  <p><strong>聯絡地址: </strong><span tal:content="context/address"/></p>
+  <p><strong>電話: </strong><span tal:content="context/telNo"/></p>
+  <p><strong>傳真: </strong><span tal:content="context/faxNo"/></p>
+  <p><strong>手機: </strong><span tal:content="context/cellNo"/></p>
+  <p><strong>email: </strong><a tal:content="context/email" tal:attributes="href string:mailto:${context/email}"/></p>
+  <p><strong>web: </strong><a tal:content="context/webSite" tal:attributes="href context/webSite" target="_blank"/></p>
+  <hr>
+  <div tal:content="structure context/detail">
+  </div>
+
+
+</div>
+
+
+
+  </metal:content-core>
+</metal:main>
+
+</body>
+</html>
+
